@@ -28,9 +28,9 @@ from wiotp.sdk import (
     MissingMessageDecoderException,
 )
 from wiotp.sdk.device import DeviceClient
-from wiotp.sdk.device.command import Command
 from wiotp.sdk.gateway.config import GatewayClientConfig
 from wiotp.sdk.gateway.messages import Notification
+from wiotp.sdk.gateway.messages import Command
 
 
 class GatewayClient(DeviceClient):
